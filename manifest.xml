@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="MillenniumOSS" fetch="https://github.com/MillenniumOSS" clone-depth="1" />
+    <remote name="transsion-graveyard" fetch="https://github.com/transsion-graveyard" clone-depth="1" />
+    <remote name="ardiandideyashidiq" fetch="https://github.com/ardiandideyashidiq" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2" />
+    <project path="device/infinix/X670" name="android_device_infinix_X670" remote="transsion-graveyard" revision="axion-bp4a" />
+    <project path="device/infinix/X670-kernel" name="android_device_infinix_X670-kernel" remote="transsion-graveyard" revision="main" />
+
+    <!-- Vendor -->
+    <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-redesign" />
+    <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-qpr2" />
+    <project path="vendor/infinix/X670" name="android_vendor_infinix_X670" remote="ardiandideyashidiq" revision="lineage-23.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
+    <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
+
+</manifest>
